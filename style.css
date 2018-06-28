@@ -1,0 +1,56 @@
+html,body{
+    padding: 0;
+    bottom: 0;
+    font-size: 100%;
+    margin:0;
+    border:0;
+    background-color: #F3FDFE;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* tela-login inicio */
+.box-login{
+    width:300px;
+    height: 200px;
+    border-radius: 10px;
+    margin:0 auto;
+    margin-top: 35vh;
+    background-color: #BACEE6;
+    padding:10px;
+}
+.box-login>form{
+padding-right: 10px;
+
+}
+.box-login>form>label{
+    font-size:1.2em;
+    margin-top:10px;
+}
+.box-login>form>input{
+   width:100%;
+   height: 25px;
+   border-radius:5px;
+   padding-left: 10px;
+   border:0;
+   color:#90979F;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.box-login>form>button[type=submit]{
+    border:0;
+    margin-top:20px;
+    border-radius:5px;
+    color:#F3FDFE;
+    cursor:pointer;
+    background-color:#90979F;
+    width: 300px;
+    padding: 10px;
+    font-size: 1.1em;
+    letter-spacing:2px;
+}
+.box-login>form>button[type=submit]:hover{
+    background-color:#36424E;
+    transition: 100ms ease-in-out;
+}
+/*Final Tela-login*/
